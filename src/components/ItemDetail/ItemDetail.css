@@ -1,0 +1,71 @@
+/* ItemDetail.css */
+
+/* Estilos generales para el artículo del detalle del producto */
+.CardItem-2 {
+    display: flex; /* Usa flexbox para alinear los elementos */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    max-width: 100%; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Espaciado externo y centrado automático */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}
+
+/* Estilos para el encabezado del artículo */
+.Header {
+    text-align: center; /* Centra el texto en el encabezado */
+    margin-bottom: 20px; /* Espaciado debajo del encabezado */
+}
+
+/* Estilos para el título del artículo */
+.ItemHeader {
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna */
+    font-size: 2rem; /* Tamaño de fuente grande */
+    font-weight: 700; /* Peso del texto */
+    color: #ff6347;; /* Color oscuro */
+}
+
+/* Estilos para la imagen del artículo */
+.ItemImg {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados en la imagen */
+    margin-bottom: 20px; /* Espaciado debajo de la imagen */
+}
+
+/* Estilos para la sección de detalles del artículo */
+section {
+    text-align: center; /* Centra el texto en la sección */
+    margin-bottom: 20px; /* Espaciado debajo de la sección */
+}
+
+/* Estilos para los párrafos de detalles */
+section p {
+    font-size: 1rem; /* Tamaño de fuente estándar */
+    color: #555; /* Color del texto secundario */
+    margin-bottom: 10px; /* Espaciado debajo de cada párrafo */
+}
+
+/* Estilos para el encabezado de categoría */
+section h3 {
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna */
+    font-size: 1.5rem; /* Tamaño de fuente para el encabezado */
+    font-weight: 600; /* Peso del texto */
+    color: #ff6347; /* Color para la categoría */
+    margin-bottom: 10px; /* Espaciado debajo del encabezado */
+}
+
+/* Estilos para el botón de contar (ItemCount) */
+.ItemCount {
+    margin-top: 20px; /* Espaciado arriba del botón de contar */
+}
+
+.price {
+    font-size: 1.5rem; /* Tamaño de fuente para el encabezado */
+    font-weight: 600; /* Peso del texto */
+    color: #ff6347; /* Color para la categoría */
+    margin-bottom: 10px; /* Espaciado debajo del encabezado */
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+
+.Title-Bienvenida {
+    font-family: 'Montserrat', sans-serif;  /* Fuente moderna y clara */
+    font-size: 2.5rem; /* Tamaño grande para destacar el título */
+    color: #ff6347; /* Color vibrante como 'tomato' para atraer atención */
+    text-align: center; /* Centrar el texto */
+    margin-top: 2rem; /* Espaciado superior */
+    margin-bottom: 1rem; /* Espaciado inferior */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas para un toque deportivo */
+    letter-spacing: 2px; /* Espaciado entre letras para dar un aspecto estilizado */
+    font-weight: bold; /* Negrita para hacer el título más imponente */
+    border-bottom: 2px solid #333; /* Añadir una línea inferior para separar el título */
+    display: inline-block; /* Hacer el título en línea con el borde */
+    padding-bottom: 0.5rem; /* Espacio entre el texto y la línea inferior */
+  }
+  
+  
+  .Title-Bienvenida {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Para pantallas más pequeñas, ajustar el tamaño del texto */
+  @media (max-width: 768px) {
+    .Title-Bienvenida {
+      font-size: 2rem; 
+    }
+  }
+  

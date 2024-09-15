@@ -1,0 +1,97 @@
+/* Item.css */
+
+/* Estilos generales para la tarjeta de producto */
+.CardItem {
+    background-color: #fff; /* Fondo blanco para resaltar la imagen y el contenido */
+    border: 1px solid #ddd; /* Borde sutil alrededor de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    padding: 16px; /* Espaciado interno */
+    margin: 20px; /* Separación entre las tarjetas */
+    text-align: center; /* Centrar el contenido */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    max-width: 300px; /* Ancho máximo para las tarjetas */
+}
+
+/* Efecto hover: ligeramente más grande y con más sombra */
+.CardItem:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Más sombra en hover */
+}
+
+/* Estilos para el encabezado de la tarjeta */
+.card__header {
+    margin-bottom: 12px;
+}
+
+.card__title {
+    font-family: 'Montserrat', sans-serif; /* Fuente moderna */
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+    font-weight: 600; /* Peso del título */
+    color: #333; /* Color oscuro */
+    margin: 0; /* Sin márgenes */
+}
+
+/* Imagen dentro de la tarjeta */
+.card__picture {
+    margin-bottom: 16px;
+}
+
+.card__img {
+    width: 100%; /* Imagen ajustada al ancho de la tarjeta */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    object-fit: cover; /* Ajuste de la imagen */
+}
+
+/* Estilos para el cuerpo de la tarjeta */
+.card__body {
+    margin-bottom: 16px;
+}
+
+/* Precio del producto */
+.card__price {
+    font-size: 1.25rem; /* Tamaño del precio */
+    font-weight: 500; /* Peso medio */
+    color: #ff6347; /* Color de precio (mismo que en el NavBar para coherencia) */
+    margin-bottom: 8px;
+}
+
+/* Descripción del producto */
+.card__description {
+    font-size: 0.9rem; /* Tamaño más pequeño para la descripción */
+    color: #555; /* Color de texto secundario */
+    margin-bottom: 16px;
+}
+
+/* Botón para ver más detalles */
+.card__button {
+    display: inline-block; /* Mostrar el botón en bloque */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ff6347; /* Color del botón */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 4px; /* Bordes redondeados */
+    font-weight: 600; /* Peso del texto */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+}
+
+/* Efecto hover para el botón */
+.card__button:hover {
+    background-color: #ff4500; /* Cambiar el color en hover */
+}
+
+/* Responsividad: ajustar tamaño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .CardItem {
+        max-width: 100%; /* Ancho completo en pantallas pequeñas */
+    }
+    
+    .card__title {
+        font-size: 1.25rem; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+    
+    .card__price {
+        font-size: 1rem; /* Reducir el tamaño del precio */
+    }
+}

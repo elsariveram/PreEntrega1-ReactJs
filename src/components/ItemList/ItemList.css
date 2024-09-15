@@ -1,0 +1,15 @@
+
+.ListGroup {
+    display: flex; /* Habilita el modo Flexbox */
+    flex-wrap: wrap; /* Permite que las tarjetas se vayan a la siguiente fila si no caben en una sola */
+    justify-content: space-between; /* Espacio entre las tarjetas */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+
+.CardItem {
+    flex: 1 1 300px; /* Se ajusta a un ancho mínimo de 300px y crece si hay espacio disponible */
+    max-width: 300px; /* Limita el ancho máximo de la tarjeta */
+    margin: 10px; /* Espaciado externo entre las tarjetas */
+}

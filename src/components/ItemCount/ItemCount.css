@@ -1,0 +1,52 @@
+/* ItemCount.css */
+
+/* Contenedor principal del contador */
+.Counter {
+    display: flex; /* Usa flexbox para alinear los elementos */
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo claro para el contador */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Contenedor de los controles de cantidad */
+.controls {
+    display: flex; /* Usa flexbox para alinear los botones y el contador */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-bottom: 10px; /* Espaciado debajo de los controles */
+}
+
+/* Estilos para los botones de incrementar y decrementar */
+.Button {
+    background-color: #ff6347; /* Color de fondo de los botones */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    font-size: 1.25rem; /* Tamaño del texto en el botón */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    margin: 0 5px; /* Espaciado horizontal entre botones */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano */
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+}
+
+/* Estilo para el botón de agregar al carrito */
+.Button:disabled {
+    background-color: #ccc; /* Color de fondo cuando el botón está deshabilitado */
+    cursor: not-allowed; /* Cursor en forma de cruz */
+}
+
+/* Efecto hover para los botones */
+.Button:hover:not(:disabled) {
+    background-color: #ff4500; /* Color de fondo en hover */
+}
+
+/* Estilos para el texto del contador */
+h4 {
+    margin: 0 10px; /* Espaciado horizontal alrededor del texto */
+    font-size: 1.5rem; /* Tamaño del texto del contador */
+    font-weight: 600; /* Peso del texto */
+    color: #333; /* Color del texto */
+}

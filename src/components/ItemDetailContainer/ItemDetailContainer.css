@@ -1,0 +1,15 @@
+
+.ItemDetailContainer {
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    padding: 20px; /* Espaciado interno del contenedor */
+    margin: 20px; /* Espaciado externo */
+    
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 100%; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho total */
+}

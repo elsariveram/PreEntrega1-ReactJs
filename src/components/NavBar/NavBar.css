@@ -1,0 +1,43 @@
+
+
+.NavBar {
+    background-color: #333; /* Color de fondo oscuro */
+    padding: 1rem; /* Espaciado alrededor de los elementos */
+  }
+  
+  
+  .NavBar ul {
+    display: flex; /* Colocar los elementos en una fila */
+    align-items: center; /* Alinear los elementos verticalmente en el centro */
+    justify-content: space-between; /* Distribuir espacio entre los elementos */
+    list-style: none; /* Eliminar viñetas de la lista */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar padding */
+   
+  }
+  
+ 
+  .NavBar a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 0.5rem 1rem; /* Añadir espaciado alrededor del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita para el texto */
+  }
+  
+ 
+  .NavBar a:hover {
+    color: #ff6347; /* Cambiar el color al pasar el ratón (tomato color) */
+  }
+  
+  
+  .NavBar a.active {
+    border-bottom: 2px solid #ff6347; /* Subrayar el enlace activo */
+  }
+  
+  
+  .NavBar li:last-child {
+    margin-left: auto; /* Mover el ícono del carrito al extremo derecho */
+  }
+  
+  
