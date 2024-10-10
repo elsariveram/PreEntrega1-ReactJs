@@ -1,0 +1,47 @@
+/* Estilos generales para el contenedor del formulario */
+.Container-form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   
+    height: 100vh;
+    background-color: #191919; /* Fondo oscuro para el contenedor */
+}
+
+/* Estilos del formulario */
+.Form {
+    margin-top: 5%;
+    background-color: #444; /* Color de fondo del formulario (más claro que el contenedor) */
+    padding: 2rem; /* Espaciado alrededor de los elementos */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Sombra del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+    display: flex;
+    flex-direction: column; /* Disposición vertical de los elementos */
+    gap: 1rem; /* Espaciado entre los elementos */
+}
+
+/* Estilos de las etiquetas */
+.Label {
+    font-size: 1rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita para el texto */
+    color: white; /* Color del texto blanco */
+    margin: 0.5rem ; /* Espaciado entre la etiqueta y el campo de entrada */
+}
+
+/* Estilos de los campos de entrada */
+.Input {
+    padding: 0.5rem; /* Espaciado dentro del campo */
+    font-size: 1rem; /* Tamaño de fuente */
+    margin-left: 1rem; /* Espaciado entre el campo de entrada y el borde */
+    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid #666666; /* Borde gris claro */
+    outline: none; /* Sin borde de enfoque por defecto */
+    transition: border-color 0.3s ease; /* Transición suave para el borde */
+}
+
+.Input:focus {
+    border-color: #ff6347; /* Cambiar el color del borde al enfocar */
+}
+

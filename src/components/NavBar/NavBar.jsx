@@ -1,5 +1,5 @@
 
-import Cartwidget from "../CartWidget/CartWidget"
+import CartWidget from "../CartWidget/CartWidget"
 import { NavLink, Link } from "react-router-dom"
 import './NavBar.css'
 
@@ -19,7 +19,7 @@ const NavBar = () => {
                 <li>
                     <NavLink to={'/category/indumentaria'} activeClassName="active">Indumentaria</NavLink>
                     </li>
-                <li><Cartwidget/></li>
+                <li><CartWidget/></li>
             </ul>
         </nav>
         

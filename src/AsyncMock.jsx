@@ -42,7 +42,7 @@ const products = [
         stock: 8, 
         name: "Bicicleta Scott", 
         price: 1200000, 
-        image: "https://asset.scott-sports.com/fit-in/2000x2000/290/290173_1915303_3.png?signature=c83ce1abada859e2e88cdceecdbd6dd2b318f6c60bbfbfba5603ab08d2557b5b" // Vacío para agregar más tarde
+        image: "https://asset.scott-sports.com/fit-in/2000x2000/290/290173_1915303_3.png?signature=c83ce1abada859e2e88cdceecdbd6dd2b318f6c60bbfbfba5603ab08d2557b5b" 
     },
     { 
         id: 6, 

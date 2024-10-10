@@ -1,7 +1,8 @@
 import { useState } from "react";
-import './ItemCount.css'
+import './ItemCount.css' 
+import { Link } from "react-router-dom";
 //COMPONENTE PARA CONTAR ITEMS QUE SE AGREGAN O QUITAN AL CARRITO
-const ItemCount = ({stock, initial, onAdd}) => { //consta de 3 props para montarlo en el ui: stock inicial, el valor incial del contador y una función para incrementar el contador segun el stock disponible
+const ItemCount = ({stock, initial, onAdd, cartItemsCount}) => { //consta de 3 props para montarlo en el ui: stock inicial, el valor incial del contador y una función para incrementar el contador segun el stock disponible
    
     //ESTADO DE CANTIDAD 
                     
@@ -38,6 +39,14 @@ const ItemCount = ({stock, initial, onAdd}) => { //consta de 3 props para montar
                             {/* //aqui se usa el PROP de funcion onAdd con el estado de la cantidad del contador */}
                             Agregar al carrito</button>
                     </div>
+                    <div>
+                    {cartItemsCount > 0 && ( 
+                    <Link to={'/cart'}>
+                        Ver carrito
+                    </Link>
+                )}
+                    </div>
+
                     
                 </div>
             )

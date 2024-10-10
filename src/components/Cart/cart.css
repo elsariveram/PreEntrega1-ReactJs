@@ -1,0 +1,37 @@
+/* Cart.css */
+
+/* Estilo general para el carrito */
+.cart-title {
+    font-size: 1.5rem;
+    color: white; /* Cambiar a blanco para el contraste con el fondo oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Option {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 10px;
+    background-color: #e14f35; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición para hover */
+}
+
+.Option:hover {
+    background-color: #ff6347; /* Color de fondo al hacer hover (tomato color) */
+    color: white; /* Color del texto */
+}
+
+.Checkout { 
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 30px;
+    background-color: #e14f35; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición para hover */
+
+}
